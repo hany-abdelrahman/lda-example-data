@@ -1,3 +1,5 @@
+LDA Usage Example
+
 Instructions to run on sample data set:
 ap_sequence is a sequence file of the dataset. Here we assume that it is located at the root of HDFS. 
 
@@ -14,3 +16,5 @@ spark/bin/spark-submit --class LDA LDA.jar /vsm/* 22000 10 /results example_sett
 python topics.py /results/lambda_final /vocab/part-00000 20 
 
 
+For more details on the parameters usage, please refer to: 
+https://github.com/lukaselmer/ethz-web-scale-data-mining-project/tree/master/src/WSDA
